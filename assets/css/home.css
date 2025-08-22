@@ -1,0 +1,402 @@
+body{
+    background: #F5F8FF;
+}
+
+header{
+    position: absolute;
+    z-index: 111;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.header-main{
+    padding-top: 24px;
+}
+.header-cnt{
+    gap: 30px;
+}
+.phone-number{
+    gap: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.icon-call{
+    width: 26px;
+    height: 26px;
+}
+
+.header-btn{
+    gap: 10px;
+}
+.btn-login{
+    transition: 0.3s;
+    width: 160px;
+    height: 45px;
+    border-radius: 7px;
+    padding: 12px 22px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF1A;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+.btn-login:hover{
+    background: #FFFFFF;
+    color: #F38E30;
+
+
+}
+.btn-reg{
+    transition: 0.3s;
+    width: 180px;
+    height: 45px;
+    border-radius: 7px;
+    padding: 14px 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #F38E30;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+
+.btn-reg:hover{
+    background: unset;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+
+
+.rental-saratov{
+    background: #006CEC;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.excavator-photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.rental-saratov-info{
+    max-width: 580px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.rental-saratov-info h1{
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 100%;
+    color: #ffffff;
+}
+.rental-saratov-info ul{
+    margin: 20px 0 40px 40px;
+    gap: 8px;
+    list-style-type: disc;
+}
+.rental-saratov-info ul li{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #ffffff;
+}
+.btn{
+    transition: 0.3s;
+    max-width: 280px;
+    width: 100%;
+    height: 50px;
+    padding: 14px 25px;
+    background: #F38E30;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #F38E30;
+}
+.btn:hover{
+    background: unset;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.system-more{
+    margin-top: 100px;
+}
+.system-cnt{
+    box-shadow: 8.9px 8.9px 62.27px 0px #1D232C0D;
+    border: 1.78px solid #FFFFFF;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 24px;
+}
+.system-flex{
+    gap: 36px;
+}
+.system-rel{
+    max-width: 557px;
+    width: 100%;
+}
+
+.system-slider{
+    width: 100%;
+}
+.system-photo{
+    width: 100%;
+}
+.system-photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.system-sm-slider{
+    width: 100%;
+    margin-top: 20px;
+}
+.system-sm-photo{
+    width: 130px;
+    cursor: pointer;
+}
+.system-sm-photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.system-info{
+    max-width: 865px;
+    width: 100%;
+}
+.system-title{
+
+}
+.system-title h3{
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+    color: #3D3D3D;
+
+}
+.system-title p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    margin-top: 7px;
+    color: #B8B8B8;
+}
+.system-title ul{
+    margin-top: 12px;
+    gap: 2px;
+}
+.system-title ul li{
+    display: flex;
+}
+.icon-star{
+    background-color: #F38E30;
+}
+.star-silver .icon-star{
+    background-color: #D9D9D9;
+}
+
+.system-work, .system-text{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #F5F5F5;
+    gap: 12px;
+}
+
+.working-hours{
+    gap: 7px;
+    border-radius: 8.54px;
+    padding: 12px;
+    background: #F5F5F5;
+    width: max-content;
+}
+.working-hours .icon{
+    background-color: #F38E30;
+    width: 25px;
+    height: 25px;
+}
+
+.working-hours p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 90%;
+    color: #525252;
+}
+.working-hours span{
+    display: block;
+    margin-left: 7px;
+    color: #141414;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 90%;
+}
+
+.system-text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3D3D3D;
+}
+.system-text p:nth-child(2){
+    margin-top: 50px;
+}
+.system-text ul li{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3D3D3D;
+}
+.system-text ul {
+    margin-bottom: 30px;
+}
+.btn-blue{
+    margin: 30px auto 0;
+    transition: 0.3s;
+    border: 1.78px solid #F5F5F5;
+    background: #F38E30;
+    border-radius: 10px;
+    padding: 14px 24px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 280px;
+}
+
+
+.technique-main{
+    margin-top: 150px;
+}
+.technique-menu ul{
+    gap: 20px;
+}
+.technique-menu ul li{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #A3A3A3;
+    transition: 0.3s;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+.technique-menu ul .tech-menu-active{
+    color: #F38E30;
+    border-bottom: 1px solid #F38E30;
+}
+.technique-menu ul li:hover{
+    color: #F38E30;
+}
+
+.technique-cnt{
+    margin-top: 30px;
+}
+.reviews-gallery {
+    gap: 20px;
+    background: #fff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 8.9px 8.9px 62.27px 0px #1D232C0D;
+    border: 1.78px solid #FFFFFF;
+}
+.technique-photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reviews-block{
+    margin-top: 24px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 8.9px 8.9px 62.27px 0px #1D232C0D;
+    border: 1.78px solid #FFFFFF;
+    background: #FFFFFF;
+
+}
+.reviews-info{
+    gap: 20px;
+}
+.reviews-info img{
+    width: 122px;
+    border-radius: 10px;
+}
+
+.reviews-text{
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #F5F5F5;
+}
+.reviews-text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #8F8F8F;
+}
+
+
+.advantages-main{
+    margin-top: 120px;
+}
+.advantages-main h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #353535;
+}
+
+.advantages-wrap{
+    margin-top: 32px;
+    gap: 24px;
+}
+.advantages-box{
+    border: 1px solid #3242541A;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 7px 0px #BABDBF00;
+    border-radius: 10px;
+    padding: 4px 32px 4px 12px;
+    width: calc(50% - 12px);
+}
+.advantages-text h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #324254;
+}
+.advantages-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #324254;
+    margin-top: 12px;
+}
+
+
+.useful-info{
+    margin-top: 32px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    height: 324px;
+}
+.system-title h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3D3D3D;
+}
