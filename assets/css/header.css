@@ -4,9 +4,11 @@ header{
     left: 0;
     top: 0;
     width: 100%;
+    transition: 0.3s;
 }
 .scrolled{
-    background: #006CEC;
+    background: rgba(0, 108, 236, 0.7);
+    backdrop-filter: blur(20px);
 
 }
 .header-main{

@@ -7,9 +7,18 @@ body{
 
 
 .rental-saratov{
-    background: #006CEC;
     padding-top: 200px;
     padding-bottom: 150px;
+    background-image: url("../img/fon.webp");
+}
+.rental-saratov:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
 }
 .excavator-photo {
     position: absolute;
