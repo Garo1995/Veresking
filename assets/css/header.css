@@ -1,0 +1,110 @@
+header{
+    position: fixed;
+    z-index: 111;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.scrolled{
+    background: #006CEC;
+
+}
+.header-main{
+    padding: 18px 0;
+}
+.header-cnt{
+    gap: 40px;
+}
+.phone-number{
+    gap: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.call-phone p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    margin-bottom: 4px;
+}
+.icon-call{
+    width: 26px;
+    height: 26px;
+}
+
+.header-btn{
+    gap: 10px;
+}
+.btn-login{
+    transition: 0.3s;
+    width: 160px;
+    height: 45px;
+    border-radius: 7px;
+    padding: 12px 22px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF1A;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+.btn-login:hover{
+    background: #FFFFFF;
+    color: #F38E30;
+
+
+}
+.btn-reg{
+    transition: 0.3s;
+    width: 180px;
+    height: 45px;
+    border-radius: 7px;
+    padding: 12px 22px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #F38E30;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+
+.btn-reg:hover{
+    background: unset;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.logo{
+    max-width: 180px;
+    width: 100%;
+}
+
+.header-menu ul{
+    gap: 20px;
+}
+.header-menu a{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s;
+}
+.header-menu a:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #FFFFFF;
+    transition: 0.3s;
+}
+
+.header-menu a:hover:before{
+    width: 100%;
+}
