@@ -66,10 +66,72 @@ let certificateSwiper = new Swiper(".certificate-slider", {
     spaceBetween: 20,
     slidesPerView: 4,
     pagination: {
-        el: ".swiper-pagination",
+        el: ".certificate-pagination",
         clickable: true,
     },
 });
+
+
+
+
+let techniqueSwiper = new Swiper(".technique-slider", {
+    loop: true,
+    spaceBetween: 20,
+    slidesPerView: 2,
+    pagination: {
+        el: ".technique-pagination",
+        clickable: true,
+    },
+});
+
+
+
+
+
+
+
+
+let portfolioSwiper = new Swiper(".portfolio-slider", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    loop: true,
+    breakpoints: {
+        '991': {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+        '767': {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        '680': {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+
+        '320': {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 20,
+        },
+    },
+    navigation: {
+        nextEl: ".portfolio-button-next",
+        prevEl: ".portfolio-button-prev",
+    },
+
+});
+
+
+
+
+
+
+
+
+
+
+
 
 
 
