@@ -953,20 +953,10 @@ h2{
 
 footer{
     margin-top: 120px;
-    padding-bottom: 50px;
-}
-.container-large{
-    max-width: 1720px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 40px;
-}
-
-.footer-fon{
     background: #292D33;
     padding: 60px 0;
-    border-radius: 20px;
 }
+
 
 .footer-btn{
     gap: 10px;
@@ -1196,12 +1186,10 @@ footer{
     }
     footer {
         margin-top: 80px;
-        padding-bottom: 30px;
-    }
-    .footer-fon {
         padding: 40px 0;
-        border-radius: 16px;
+
     }
+
     .marketing__inp input {
         height: 50px;
         font-size: 18px;
