@@ -32,3 +32,16 @@
     mask-image: url('../img/location.svg');
     -webkit-mask-image: url('../img/location.svg');
 }
+.icon.icon-vk {
+    mask-image: url('../img/vk.svg');
+    -webkit-mask-image: url('../img/vk.svg');
+}
+.icon.icon-youtube {
+    mask-image: url('../img/youtube.svg');
+    -webkit-mask-image: url('../img/youtube.svg');
+}
+
+.icon.icon-telegram {
+    mask-image: url('../img/icon-telegram.svg');
+    -webkit-mask-image: url('../img/icon-telegram.svg');
+}

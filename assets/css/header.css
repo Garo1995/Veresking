@@ -12,7 +12,7 @@ header{
 
 }
 .header-main{
-    padding: 18px 0;
+    padding: 14px 0;
 }
 .header-cnt{
     gap: 40px;
@@ -23,6 +23,7 @@ header{
     font-size: 20px;
     line-height: 140%;
     color: #FFFFFF;
+    white-space: nowrap;
 }
 .call-phone p{
     color: #FFFFFF;
@@ -41,14 +42,14 @@ header{
 }
 .btn-login{
     transition: 0.3s;
-    width: 160px;
+    width: 125px;
     height: 45px;
     border-radius: 7px;
     padding: 12px 22px;
     border: 1px solid #FFFFFF;
     background: #FFFFFF1A;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 100%;
     text-align: center;
     color: #ffffff;
@@ -61,12 +62,12 @@ header{
 }
 .btn-reg{
     transition: 0.3s;
-    width: 180px;
+    width: 160px;
     height: 45px;
     border-radius: 7px;
     padding: 12px 22px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 100%;
     text-align: center;
     color: #F38E30;
@@ -91,7 +92,7 @@ header{
 }
 .header-menu a{
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     position: relative;
     transition: 0.3s;
@@ -109,4 +110,160 @@ header{
 
 .header-menu a:hover:before{
     width: 100%;
+}
+
+.menu-content{
+    gap: 70px;
+}
+
+
+
+
+
+
+
+.open-menu{
+    display: none;
+}
+.close-menu {
+    display: none;
+}
+.close-menu span {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+
+}
+
+.close-menu span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 4px;
+    position: relative;
+}
+.close-menu span:nth-child(2) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: -3px;
+}
+
+.close-menu span:nth-child(3){
+    display: none;
+}
+
+.body_fix {
+    overflow: hidden!important;
+}
+.body_fix:before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    background: #023E8A4D;
+    backdrop-filter: blur(14px);
+    z-index: 44;
+}
+
+
+
+
+
+
+@media (max-width: 1299px){
+    .header-cnt {
+        gap: 25px;
+    }
+    .phone-number {
+        gap: 8px;
+        font-size: 18px;
+        line-height: 135%;
+    }
+    .header-menu a {
+        font-size: 16px;
+    }
+    .menu-content {
+        gap: 28px;
+    }
+
+}
+@media (max-width: 1199px){
+    .open-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        transition: 0.3s;
+        z-index: 111111;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    .open-menu span{
+        display: flex;
+        background: #FFFFFF;
+        width: 26px;
+        height: 2px;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .menu-content {
+        width: 100%;
+        position: fixed;
+        z-index: 99999;
+        top: 79px;
+        left: 0;
+        transition: 0.5s;
+        height: 0;
+        overflow: hidden;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 108, 236, 0.7);
+        gap: 40px;
+    }
+    .body_fix header{
+        background: rgba(0, 108, 236, 0.7);
+
+    }
+    .transition-menu {
+        height: 500px;
+        -webkit-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .header-menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-menu a {
+        font-size: 22px;
+    }
+    .logo {
+        max-width: 150px;
+        width: 100%;
+    }
+    .header-cnt {
+        gap: 50px;
+    }
+}
+@media (max-width: 570px){
+    header .call-phone{
+        display: none;
+    }
+    .header-btn {
+        gap: 15px;
+        flex-direction: column;
+    }
+    .btn-login {
+        width: 160px;
+    }
+
 }

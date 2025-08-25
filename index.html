@@ -25,17 +25,25 @@
                     </a>
                 </div>
             </div>
-            <div class="header-menu">
-                <ul class="G-align-center">
-                    <li><a href="#">Каталог</a></li>
-                    <li><a href="#">Блог</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
+            <div class="menu-content G-align-center">
+                <div class="header-menu">
+                    <ul class="menu G-align-center">
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#blog">Блог</a></li>
+                        <li><a href="#about-us">О нас</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="header-btn G-align-center">
+                    <button class="btn-login G-center">Войти</button>
+                    <button class="btn-reg G-center">Регистрация</button>
+                </div>
             </div>
-            <div class="header-btn G-align-center">
-                <button class="btn-login G-center">Войти</button>
-                <button class="btn-reg G-center">Регистрация</button>
+            <div class="open-menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </div>
@@ -43,8 +51,7 @@
 
 <section class="rental-saratov">
     <div class="container">
-        <div class="rental-saratov-fl G-align-center G-justify-between">
-            <div class="rental-saratov-info">
+        <div class="rental-saratov-info">
                 <h1>Аренда АГП в Саратове</h1>
                 <ul class="G-flex-column">
                     <li>Гибкие условия аренды</li>
@@ -53,17 +60,12 @@
                 </ul>
                 <button class="btn">Заказать</button>
             </div>
-            <div class="rental-saratov-photo G-flex">
-                <img src="./assets/img/scaled.jpg" alt="rental">
-            </div>
-        </div>
-
     </div>
 </section>
 
-<section class="system-more">
+<section class="system-more section-margin">
     <div class="container">
-        <div class="G-justify-between G-align-start">
+        <div class="services-menu-flex G-justify-between G-align-start">
             <div class="services-menu">
                 <h4>Услуги</h4>
                 <ul>
@@ -178,7 +180,7 @@
                                     и получите специальное предложение! Успейте воспользоваться акцией — звоните прямо
                                     сейчас!</p>
                             </div>
-                            <div class="G-align-center G-justify-between">
+                            <div class="system-contact G-align-center G-justify-between">
                                 <div class="call-phone">
                                     <p>Нет времени читать? Звоните!</p>
                                     <a href="tel:+7 (495) 126-77-51" class="phone-number G-align-center">
@@ -218,7 +220,7 @@
     </div>
 </section>
 
-<section class="technique-main">
+<section id="reviews" class="technique-main section-margin">
     <div class="container">
         <h2>Отзывы</h2>
 
@@ -286,7 +288,7 @@
     </div>
 </section>
 
-<section class="advantages-main">
+<section class="section-margin">
     <div class="container">
         <h2>Преимущества аренды АГП на Veresking</h2>
         <div class="advantages-wrap G-flex-wrap">
@@ -323,7 +325,7 @@
     </div>
 </section>
 
-<section class="portfolio-main">
+<section id="portfolio" class="section-margin">
     <div class="container">
         <h2>Портфолио</h2>
         <div class="portfolio-cnt">
@@ -384,7 +386,7 @@
     </div>
 </section>
 
-<section class="certificate-main">
+<section class="section-margin">
     <div class="container">
         <h2>Благодарности</h2>
         <div class="certificate-cnt">
@@ -422,7 +424,7 @@
     </div>
 </section>
 
-<section class="blog-main">
+<section id="blog" class="section-margin">
     <div class="container">
         <h2>Блог</h2>
         <div class="blog-flex G-flex-wrap">
@@ -477,7 +479,7 @@
     </div>
 </section>
 
-<section class="about-us">
+<section id="about-us" class="about-us section-margin">
     <div class="container">
         <h2>О компании Veresking</h2>
         <div class="about-us-main G-align-center G-justify-between">
@@ -499,7 +501,7 @@
 </section>
 
 
-<section id="faq" class="faq">
+<section id="faq" class="faq section-margin">
     <div class="container">
         <h2>FAQ</h2>
         <div id="accordion" class="accordion G-flex-column">
@@ -565,7 +567,7 @@
 </section>
 
 
-<section class="contact-main">
+<section class="contact-main section-margin">
     <div class="container">
         <div class="contact-fon G-align-start G-justify-between">
             <div class="contact-info G-flex-column">
@@ -628,31 +630,52 @@
 
 
 <footer>
-    <div class="container">
+    <div class="container-large">
         <div class="footer-fon">
-            <div class="footer-main G-align-center G-justify-between">
-                <a href="#" class="logo G-flex">
-                    <img src="./assets/img/logo.svg" alt="logo">
-                </a>
-
-                <div class="header-menu">
-                    <ul class="G-align-center">
-                        <li><a href="#">Каталог</a></li>
-                        <li><a href="#">Блог</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="call-phone">
-                    <p>Нет времени читать? Звоните!</p>
-                    <a href="tel:+7 (495) 126-77-51" class="phone-number G-align-center">
-                        <i class="icon icon-call"></i>
-                        <span>+7 (495) 126-77-51</span>
+            <div class="container">
+                <div class="footer-main G-align-center G-justify-between">
+                    <a href="#" class="logo G-flex">
+                        <img src="./assets/img/logo.svg" alt="logo">
                     </a>
+                    <div class="footer-btn G-align-center">
+                        <button class="btn-blue">Получить заказ</button>
+                        <button class="btn-blue place-order">Оставить заказ</button>
+                    </div>
                 </div>
-            </div>
-            <div class="policy-info G-center">
-                <p>© 2025 Veresking. Все права защищены.</p>
+                <div class="footer-contact-flex G-align-start G-justify-between">
+                    <div class="footer-menu">
+                        <ul class="menu G-align-center">
+                            <li><a href="#reviews">Отзывы</a></li>
+                            <li><a href="#portfolio">Портфолио</a></li>
+                            <li><a href="#blog">Блог</a></li>
+                            <li><a href="#about-us">О нас</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-contact G-flex-column G-align-end">
+                        <a href="tel:+7 (495) 126-77-51" class="footer-phone">+7 (495) 126-77-51</a>
+                        <a href="mailto:metataim@yandex.ru" class="footer-mail">metataim@yandex.ru</a>
+                        <ul class="G-align-center G-justify-end">
+                            <li><a href="#"><i class="icon icon-vk"></i></a></li>
+                            <li><a href="#"><i class="icon icon-youtube"></i></a></li>
+                            <li><a href="#"><i class="icon icon-telegram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-policy G-align-end G-justify-between">
+                    <div class="rights-reserved G-flex-column">
+                        <p>ИНН: 6452149631 | ОГРН: 1226400006293</p>
+                        <p>© 2025 ООО «МЕТА ТАЙМ». Все права защищены.</p>
+                    </div>
+                    <div class="policy-offer G-align-center">
+                        <a href="./assets/img/user-agreement.docx" download="">Политика конфиденциальности</a>
+                        <a href="./assets/img/contract-offert.docx" download="">Оферта</a>
+                    </div>
+                    <div class="footer-address">
+                        <p>Юридический адрес: 410012, г. Саратов,<br> ул. Вольская, д. 91, оф. 412</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

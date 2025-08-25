@@ -65,6 +65,26 @@ let certificateSwiper = new Swiper(".certificate-slider", {
     loop: true,
     spaceBetween: 20,
     slidesPerView: 4,
+    breakpoints: {
+        '1199': {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+        '1020': {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+        '570': {
+            slidesPerView: 2,
+            slidesPerGroup: 1,
+            spaceBetween: 20,
+        },
+        '320': {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 20,
+        },
+    },
     pagination: {
         el: ".certificate-pagination",
         clickable: true,
@@ -78,6 +98,21 @@ let techniqueSwiper = new Swiper(".technique-slider", {
     loop: true,
     spaceBetween: 20,
     slidesPerView: 2,
+    breakpoints: {
+        '1199': {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        '1020': {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        '320': {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 20,
+        },
+    },
     pagination: {
         el: ".technique-pagination",
         clickable: true,
@@ -96,11 +131,11 @@ let portfolioSwiper = new Swiper(".portfolio-slider", {
     spaceBetween: 20,
     loop: true,
     breakpoints: {
-        '991': {
+        '1099': {
             slidesPerView: 3,
             spaceBetween: 20,
         },
-        '767': {
+        '1020': {
             slidesPerView: 2,
             spaceBetween: 20,
         },
@@ -168,7 +203,7 @@ $(function () {
 });
 
 
-$('.menu-scroll a').click(function() {
+$('.menu a').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         && location.hostname == this.hostname) {
         let $target = $(this.hash);

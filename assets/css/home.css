@@ -41,7 +41,7 @@ body{
     color: #ffffff;
 }
 .rental-saratov-info ul{
-    margin: 30px 0 40px 0;
+    margin: 30px 0 40px 8px;
     gap: 20px;
 }
 .rental-saratov-info ul li{
@@ -89,21 +89,10 @@ body{
 
 }
 
-.rental-saratov-photo{
-    max-width: 700px;
-    width: 100%;
-}
-.rental-saratov-photo img{
-    width: 100%;
-    border-radius: 10px;
-}
-.rental-saratov-fl{
-    position: relative;
-    z-index: 2;
-}
 
-.system-more{
-    margin-top: 100px;
+
+.section-margin{
+    margin-top: 120px;
 }
 .services-menu{
     box-shadow: 8.9px 8.9px 62.27px 0px #1D232C0D;
@@ -147,6 +136,7 @@ body{
 }
 .system-scr{
     max-width: 1060px;
+    width: 100%;
 }
 .system-cnt{
     box-shadow: 8.9px 8.9px 62.27px 0px #1D232C0D;
@@ -315,12 +305,17 @@ body{
     width: 100%;
     max-width: 230px;
 }
-
-
-.technique-main{
-    margin-top: 150px;
+.btn-blue:hover{
+    background: #c57122;
 }
+.place-order{
+    background: #006CEC;
 
+}
+.place-order:hover{
+    background: #0459bd;
+
+}
 
 .technique-cnt{
     margin-top: 30px;
@@ -366,9 +361,7 @@ body{
 }
 
 
-.advantages-main, .blog-main{
-    margin-top: 120px;
-}
+
 h2{
     font-weight: 700;
     font-size: 36px;
@@ -423,9 +416,6 @@ h2{
 
 
 
-.certificate-main{
-    margin-top: 120px;
-}
 .certificate-cnt{
     margin-top: 30px;
     position: relative;
@@ -455,9 +445,6 @@ h2{
 
 
 
-.portfolio-main{
-    margin-top: 120px;
-}
 
 .portfolio-cnt{
     position: relative;
@@ -554,7 +541,7 @@ h2{
     left: 0;
     width: 100%;
     height: 100%;
-    gap: 20px;
+    gap: 30px;
 }
 .portfolio-name .btn-blue {
     border: unset;
@@ -697,9 +684,7 @@ h2{
 
 
 
-.faq{
-    margin-top: 120px;
-}
+
 .faq h2{
     text-align: center;
 }
@@ -968,15 +953,588 @@ h2{
 
 footer{
     margin-top: 120px;
-    padding: 50px 0;
-    background: rgba(0, 108, 236, 1);
+    padding-bottom: 50px;
+}
+.container-large{
+    max-width: 1720px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
 }
 
+.footer-fon{
+    background: #292D33;
+    padding: 60px 0;
+    border-radius: 20px;
+}
 
-.policy-info{
+.footer-btn{
+    gap: 10px;
+}
+.footer-btn button{
+    border: unset;
+    font-size: 18px;
+    width: 250px;
+
+}
+.footer-menu ul{
+    gap: 30px;
+}
+.footer-menu a{
+    transition: 0.3s;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170%;
+    color: #BEC0C1;
+}
+.footer-menu a:hover{
+    color: #FFFFFF;
+}
+.footer-contact-flex{
     margin-top: 60px;
 }
-.policy-info p{
-    font-size: 18px;
+.footer-contact{
+    gap: 15px;
+}
+.footer-phone{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 170%;
     color: #FFFFFF;
+}
+.footer-mail{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    color: #FFFFFF;
+
+}
+.footer-contact ul{
+    gap: 20px;
+}
+.footer-contact a{
+    display: flex;
+
+}
+
+.footer-policy{
+    margin-top: 40px;
+}
+.rights-reserved{
+    gap: 20px;
+}
+.rights-reserved p, .policy-offer a, .footer-address{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #A9ABAD;
+}
+.policy-offer {
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1599px){
+    .container-large {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 1399px){
+
+    .rental-saratov-info h1 {
+        font-size: 60px;
+        max-width: 400px;
+    }
+    .rental-saratov {
+        padding-top: 188px;
+        padding-bottom: 140px;
+    }
+    .section-margin {
+        margin-top: 90px;
+    }
+    .phone-number {
+        font-size: 18px;
+    }
+    .system-flex {
+        gap: 20px;
+    }
+    .system-rel {
+        max-width: 420px;
+    }
+    .services-menu {
+        max-width: 250px;
+    }
+    .services-menu ul li a {
+        font-size: 16px;
+    }
+    .system-work, .system-text {
+        margin-top: 12px;
+        padding-top: 12px;
+        gap: 8px;
+    }
+    .services-menu h4 {
+        font-size: 18px;
+    }
+    .swiper-button-next {
+        right: -10px;
+    }
+
+    .swiper-button-prev {
+        left: -10px;
+    }
+    .accordion-click {
+        padding: 24px 24px;
+    }
+    .accordion-click:after {
+        right: 24px;
+        top: 28px;
+        width: 11px;
+        height: 11px;
+    }
+    .accordion-click h3 {
+        font-size: 20px;
+    }
+    .submenu {
+        padding: 0 24px 24px;
+    }
+    .submenu p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .footer-btn button {
+        width: 200px;
+        height: 50px;
+    }
+    .marketing__inp span {
+        font-size: 18px;
+    }
+
+
+
+}
+@media (max-width: 1299px){
+    .btn {
+        max-width: 240px;
+        height: 54px;
+        padding: 10px 22px;
+        font-size: 22px;
+    }
+
+    .rental-saratov-info ul li {
+        font-size: 18px;
+    }
+    .system-cnt {
+        padding: 20px;
+        margin-left: 18px;
+    }
+    .working-hours p {
+        font-size: 15px;
+    }
+    .system-text p {
+        font-size: 15px;
+    }
+
+    .btn-blue {
+        font-size: 20px;
+    }
+   .system-info .btn-blue {
+        padding: 12px 20px;
+        font-size: 20px;
+        max-width: 158px;
+    }
+    .system-cnt-admin h3 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .advantages-text h4 {
+        font-size: 20px;
+    }
+    .advantages-text p {
+        font-size: 16px;
+    }
+    .blog-flex {
+        margin-top: 30px;
+        gap: 16px;
+    }
+
+    .blog-card {
+        width: calc(33.333333% - 11px);
+    }
+    .blog-content h3 {
+        font-size: 18px;
+    }
+    .consultation__cnt {
+        padding: 20px;
+        max-width: 550px;
+    }
+    .footer-phone {
+        font-size: 24px;
+        line-height: 150%;
+    }
+    .footer-mail {
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .footer-contact-flex {
+        margin-top: 40px;
+    }
+    .footer-policy {
+        margin-top: 30px;
+    }
+    footer {
+        margin-top: 80px;
+        padding-bottom: 30px;
+    }
+    .footer-fon {
+        padding: 40px 0;
+        border-radius: 16px;
+    }
+    .marketing__inp input {
+        height: 50px;
+        font-size: 18px;
+    }
+
+
+
+
+}
+@media (max-width: 1199px){
+    .rental-saratov-info h1 {
+        font-size: 50px;
+        max-width: 335px;
+    }
+    .rental-saratov-info ul li:before {
+        width: 5px;
+        height: 10px;
+        border-width: 0 2px 2px 0;
+    }
+    .rental-saratov-info ul li {
+        font-size: 16px;
+    }
+    .rental-saratov-info ul {
+        margin: 30px 0 30px 8px;
+        gap: 15px;
+    }
+    .services-menu-flex{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .system-cnt {
+        margin-left: 0;
+    }
+    .services-menu {
+        max-width: 100%;
+        position: relative;
+        top: 0;
+
+    }
+    .services-menu ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 10px;
+    }
+    .services-menu ul li{
+        border: unset;
+    }
+    .services-menu ul li a{
+        border: 1px solid #F5F5F5;
+        border-radius: 10px;
+        padding: 10px 16px;
+    }
+    .services-menu ul li:last-child a {
+        border-radius: 10px;
+    }
+    .services-menu h4 {
+        font-size: 22px;
+    }
+    .reviews-text p {
+        font-size: 16px;
+    }
+    .reviews-block {
+        padding: 20px;
+    }
+    .reviews-info img {
+        width: 85px;
+    }
+    .system-title h4 {
+        font-size: 20px;
+        line-height: 115%;
+    }
+    .system-title p {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .system-title ul {
+        margin-top: 5px;
+    }
+    .advantages-box img {
+        width: 70px;
+    }
+
+
+    .advantages-box {
+        padding: 12px 16px 12px 16px;
+        gap: 14px;
+        width: calc(50% - 8px);
+    }
+    .advantages-wrap {
+        margin-top: 28px;
+        gap: 16px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .consultation__cnt {
+        max-width: 440px;
+    }
+    .check-form {
+        padding-left: 30px;
+        font-size: 14px;
+    }
+    .consultation__flex {
+        gap: 16px;
+    }
+    .marketing__inp span {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .rights-reserved p, .policy-offer a, .footer-address {
+        font-size: 13px;
+        line-height: 160%;
+    }
+
+
+
+
+
+
+
+}
+@media (max-width: 1020px){
+    .system-flex {
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .system-rel {
+        max-width: 560px;
+    }
+    .system-cnt-admin p {
+        font-size: 14px;
+        line-height: 130%;
+    }
+    .system-cnt-admin {
+        gap: 20px;
+        margin-top: 40px;
+    }
+    .advantages-box {
+        width: 100%;
+    }
+
+    .portfolio-name h3 {
+        font-size: 22px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        width: 22px;
+        height: 22px;
+    }
+    .swiper-button-next:before, .swiper-button-prev:before {
+        width: 12px;
+        height: 12px;
+        border-top: 2px solid #F38E30;
+        border-right: 2px solid #F38E30;
+    }
+
+    .blog-card {
+        width: calc(50% - 11px);
+    }
+    .about-us-text p {
+        font-size: 16px;
+    }
+
+
+    .accordion-click h3 {
+        font-size: 18px;
+    }
+    .contact-fon {
+        padding: 24px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .contact-info {
+        align-items: center;
+    }
+    .footer-main{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-contact-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-contact {
+        align-items: center;
+    }
+    .footer-policy {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .blog-card {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 550px;
+    }
+    .about-us-text {
+        gap: 15px;
+    }
+    .accordion-click {
+        padding: 18px 38px 18px 18px;
+    }
+    .accordion-click:after {
+        right: 21px;
+        top: 20px;
+        width: 10px;
+        height: 10px;
+    }
+    .open:after {
+        top: 27px;
+    }
+    .submenu {
+        padding: 0 18px 18px;
+    }
+
+
+
+
+}
+
+@media (max-width: 570px){
+    .rental-saratov-info h1 {
+        font-size: 40px;
+        max-width: 272px;
+    }
+    .rental-saratov {
+        padding-top: 180px;
+        padding-bottom: 120px;
+        background-position: center;
+    }
+    .services-menu ul li a {
+        border-radius: 8px;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    .section-margin {
+        margin-top: 70px;
+    }
+    .system-cnt {
+        padding: 14px;
+    }
+    .system-contact{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .working-hours span {
+        font-size: 14px;
+    }
+    .working-hours p {
+        font-size: 14px;
+    }
+    .system-info .btn-blue {
+        max-width: 100%;
+    }
+    .btn-blue {
+        max-width: 100%;
+    }
+    .reviews-block {
+        padding: 16px;
+    }
+    .reviews-text p {
+        -webkit-line-clamp: 7;
+    }
+    h2 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 35px;
+    }
+
+    .advantages-box img {
+        width: 60px;
+    }
+    .advantages-text p {
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    .advantages-text h4 {
+        font-size: 18px;
+    }
+    .portfolio-cnt {
+        margin-top: 24px;
+        padding: 0;
+    }
+    .swiper-button-prev {
+        left: 5px;
+    }
+    .swiper-button-next {
+        right: 5px;
+    }
+    .accordion-click h3 {
+        font-size: 16px;
+    }
+    .contact-fon {
+        padding: 16px;
+    }
+    .btn-blue {
+        font-size: 18px;
+    }
+    .footer-btn {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .footer-menu ul {
+        gap: 15px;
+        flex-direction: column;
+    }
+    .policy-offer {
+        gap: 15px;
+        flex-direction: column;
+    }
+    .footer-mail {
+        font-size: 16px;
+    }
+    .marketing__inp input {
+        height: 44px;
+        font-size: 16px;
+    }
+    .portfolio-name .btn-blue {
+        padding: 12px 19px;
+        height: 44px;
+        font-size: 16px;
+        max-width: 190px;
+    }
+    .blog-content {
+        padding: 16px;
+    }
+
 }
